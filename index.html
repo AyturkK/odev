@@ -14,16 +14,15 @@
 
     
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg text-white mb-1">
-
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand emphasise-on-hover" onclick="jumpToHeader();">
             <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36">
         </a>
 
-        <nav aria-label="breadcrumb" >
+        <div aria-label="breadcrumb" >
             <ol class="breadcrumb bg-transparent">
                 <li class="breadcrumb-item active" aria-current="page">Placeholder</li>
             </ol>
-        </nav>
+        </div>
 
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu">
             <span class="navbar-toggler-icon"></span>
@@ -31,13 +30,13 @@
         <div class="collapse navbar-collapse" id="navbar-menu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item px-3">
-                    <a href="#" class="nav-link text-white">Placeholder</a>
+                    <a href="#" class="nav-link text-white emphasise-on-hover">Placeholder</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a href="#" class="nav-link text-white">Placeholder</a>
+                    <a href="#" class="nav-link text-white emphasise-on-hover">Placeholder</a>
                 </li>
                 <li class="nav-item dropdown pl-3 py-2">
-                    <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown">Placeholder<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle text-white emphasise-on-hover" data-toggle="dropdown">Placeholder<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Placeholder</a></li>
                         <li><a href="#">Placeholder</a></li>
@@ -78,7 +77,7 @@
         </nav>
     -->
 
-    <div id="headerx"
+    <div id="main-header"
          class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
          style="background-image: url('img/jumbotron-background.jpg');">
         <h1 class="mb-3 h2">Template</h1>
@@ -89,7 +88,7 @@
     </div>
 
     <div class="container">
-        <div class="jumbotron" style="background-color:rgba(15,89,105,0.2);color:white;">
+        <div class="jumbotron background-soft text-white box-shadow">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat tortor luctus purus consequat, sed feugiat nibh imperdiet. Vivamus volutpat eu lacus ut feugiat. Suspendisse mauris ante, dignissim eget laoreet id, pulvinar sed massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu odio ac risus sagittis posuere ac vitae tellus. Nulla facilisi.
 
@@ -104,7 +103,7 @@
                 Nunc magna odio, dignissim non pharetra ut, congue non quam. Integer arcu elit, interdum at elit eu, porttitor hendrerit mauris. Nunc dapibus nibh nisl, sit amet commodo eros fermentum vitae. Cras ligula orci, sollicitudin nec turpis in, laoreet ultricies odio. Proin vestibulum erat a nulla faucibus, quis dapibus magna lobortis. Morbi sagittis turpis nec lacinia tempor. Pellentesque orci lectus, sollicitudin at bibendum eu, blandit vitae nibh. Quisque consequat dui leo, id rutrum lorem sollicitudin a.
             </p>
         </div>
-        <footer style="text-align:end;">
+        <footer class="background-soft px-5 py-3 mb-5" style="text-align:end;">
             <a href="destek.html">Placeholder</a>
         </footer>
 
@@ -117,6 +116,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/utility.js"></script>
 </body>
 </html>
 
