@@ -1,0 +1,43 @@
+﻿
+@font-face {
+    font-family: "FancyFont-Bold";
+    src: url("../fonts/FuzzyBubbles-Bold.ttf");
+    src: format('opentype') format('truetype');
+}
+
+@font-face {
+    font-family: "FancyFont-Regular";
+    src: url("../fonts/FuzzyBubbles-Regular.ttf");
+    src: format('opentype') format('truetype');
+}
+
+
+
+.breadcrumb-item + .breadcrumb-item::before
+
+{
+    content: ">";
+}
+
+
+.breadcrumb-item {
+    /*font-family: 'FancyFont-Regular', Arial, sans-serif;*/
+    color: white;
+    font-weight: 500;
+}
+
+.breadcrumb-item.active {
+    /*font-family: 'FancyFont-Bold', Arial, sans-serif;*/
+    font-weight: 900;
+}
+
+
+body {
+    background: rgb(0,54,46);
+    background: linear-gradient(90deg, rgba(0,54,46,1) 0%, rgba(62,29,62,1) 55%, rgba(15,89,105,1) 100%);
+}
+
+
+.background-soft {
+    background-color: rgba(15,89,105,0.2);
+}
