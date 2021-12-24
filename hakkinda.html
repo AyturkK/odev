@@ -4,17 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/common.css" />
 
-    <title>Destek ve İletişim</title>
-
+    <title>Hakkımızda</title>
 
 </head>
 <body>
 
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg text-white mb-1">
 
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg text-white mb-1">
         <a class="navbar-brand" href="index.html">
             <img id="logo" class="brand-logo transition-normal" src="img/logo.png" alt="..." height="64">
         </a>
@@ -22,7 +21,7 @@
         <div aria-label="breadcrumb">
             <ol class="breadcrumb bg-transparent">
                 <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Destek</li>
+                <li class="breadcrumb-item active" aria-current="page">Hakkımızda</li>
             </ol>
         </div>
 
@@ -41,67 +40,59 @@
                     <a class="dropdown-toggle text-white emphasise-on-hover" data-toggle="dropdown">Daha Fazla...<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="index.html">Ana Sayfa</a></li>
-                        <li><a href="hakkinda.html">Hakkımızda</a></li>
+                        <li><a href="destek.html">Destek</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div id="main-header"
-         class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white container">
-        <h1 class="mb-3 h2">Destek Sayfası</h1>
-
-        <p>
-            Bizimle iletişime geçmek mi istiyorsunuz? Aşağıdaki formu kullanarak bize ulaşabilirsiniz...
-        </p>
-    </div>
 
 
-    <div class="card container jumbotron background-soft text-white">
 
-        <div class="card-body">
-            <!--Header-->
-            <div class="form-header blue accent-1">
-                <h3>Bize ulaşın: </h3>
-            </div>
+    <div class="container">
+        <div id="main-header"
+             class="bg-image pt-5 text-center shadow-1-strong rounded mb-5 text-white">
+            <h1 class="h2">Hakkımızda</h1>
 
-            <p>E-postanız geribildirimler için kullanılacaktır.</p>
-            <br>
-
-            <!--Body-->
-            <div class="py-2">
-                <input type="text" id="form-name" placeholder="İsminiz" class="form-control">
-                <label for="form-name">İsminiz</label>
-            </div>
-
-            <div class="py-2">
-                <input type="text" id="form-email" placeholder="E-postanız" class="form-control">
-                <label for="form-email">E-posta Adresiniz</label>
-            </div>
-
-            <div class="py-2">
-                <input type="text" id="form-Subject" placeholder="Konu" class="form-control">
-                <label for="form-Subject">Konu</label>
-            </div>
-
-            <div class="py-2">
-                <textarea id="form-text" placeholder="İletiniz..." class="form-control" rows="3"></textarea>
-                <label for="form-text">İleti</label>
-            </div>
-
-            <div class="text-center mt-4">
-                <button class="btn background-soft text-white emphasise-on-hover bigger-on-focus">Gönder</button>
-            </div>
-
+            <p>
+                Hakkında sayfası
+            </p>
+        </div>
+        <div class="jumbotron background-soft text-white box-shadow">
+            <p>
+                2017 Brand Z Raporu’na göre dünyanın en değerli sekizinci markası olan
+                EatBurg olarak, dünyanın dört bir yanında yer alan 34 bini aşkın restoran
+                ve 1,6 milyonu geçen çalışanımızla, günde ortalama
+                58 milyon müşterimizi mutlu edebilmek için çalışıyoruz. Türkiye'de de EatBurg, bugün yaklaşık 260 restoranı ve
+                6000 civarında çalışanı ile yılda 100 milyon kişiye hizmet vermektedir.
+            </p>
+            <a href="fotograflar.html">Fotoğraflarımızı Görün...</a>
         </div>
 
+
+        <div id="google-map-container" class="z-depth-1-half map-container">
+            <!-- Buraya konum gösteren harita eklenecek -->
+            <p class="text-white">Haritanın görüntülenebilmesi için konum izni vermeniz gerekiyor.</p>
+        </div>
+
+
+        <footer class="background-soft px-5 py-3 mb-5" style="text-align:end;">
+            <a href="destek.html">Bize ulaşın...</a>
+        </footer>
+
     </div>
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?&callback=initMap" ></script>
+    <script src="js/utility.js"></script>
+    <script src="js/setupmap.js"></script>
 </body>
 </html>
 
